@@ -38,8 +38,9 @@ function MainBody() {
         </div>
       }
 
-      <div className="container row p-4 " style={{ fontWeight: "Bold" }}>
+      <div className="container p-1 " style={{ fontWeight: "Bold" }}>
         Students Enrolled
+        
       
       <Student
         name="Patrick B."

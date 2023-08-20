@@ -5,7 +5,7 @@ import { faker } from "@faker-js/faker";
 class Student extends React.Component {
   render(){
   return (
-    <div className=" container p-1"
+    <div className=" container p-2"
       style={{ color: "limeGreen", backgroundColor: "black" }}>
       <div className=" border">
       <div className="row">

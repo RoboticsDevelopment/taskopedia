@@ -3,7 +3,7 @@ import logo from "../images/react.png"
 
 function MainHeader() {
  return (
-  <div className="pt-2 py-1 pl-2" style={{backgroundColor:"black"}}>
+  <div className="pt-2 py-1  p-2 " style={{backgroundColor:"black"}}>
     <img src={logo} style={{ height:"35px", verticalAlign:"top"}}></img>
     <span className="h2 pt-4 text-white-50">Group Task List</span>
   </div>
@@ -16,7 +16,7 @@ function SubHeader() {
   
   return (
     <>
-      <p2 className="text-center" >
+      <p2 className="text-center p-2" >
         Created by{" "}
         <span style={{ color: "purple" }}>
           Super Mega Master Programmer{" "}
